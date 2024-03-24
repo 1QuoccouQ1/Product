@@ -1,5 +1,5 @@
 function chuyenDenLink() {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
   }
 var With = document.querySelector(".header-list-li");
 
