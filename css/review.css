@@ -1,0 +1,113 @@
+.body-main-wrap-block {
+    margin: 0 auto;
+    width: 1060px;
+    height: 420px;
+    background-color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    border-radius: 36px;
+    padding: 20px;
+}
+.body-main-wrap {
+    height: 700px;
+}
+.body-main-wrap-block-user-logo img {
+    width: 95px;
+    height: 95px;
+    margin-right: 20px;
+}
+.body-main-wrap-block-user-logo {
+    display: inline-block;
+}
+.body-main-wrap-block-user {
+    position: relative;
+}
+.body-main-wrap-block-user-name {
+    display: inline-block;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+}
+.body-main-wrap-block-user-des {
+    position: absolute;
+    top: 50px;
+    left: 118px;
+    color: #000;
+}
+.body-main-wrap-block-line {
+    width: 1040px;
+    height: 1px;
+    background-color: #000;
+    margin: 50px 0 20px;
+}
+.body-main-wrap-block-des {
+    font-size: 35px;
+    line-height: 42px;
+    width: 850px;
+}
+
+.body-main-wrap-block-btn {
+    margin-left: 0;
+    margin-top: 60px;
+    background-color: #fff;
+    color: #000;
+    border: 1px #000 solid;
+}
+
+.body-content-wrap-lists {
+    display: flex;
+    margin: 0 auto;
+    width: 1060px;
+    height: auto;
+}
+.body-content-wrap-list {
+    background-color: #fff;
+    height: 580px;
+    width: 390px;
+    margin: 0 10px 20px;
+    padding: 20px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.body-content-wrap-list-content {
+    font-size: 20px;
+    line-height: 27px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.body-content-wrap-list-user {
+    border-top: 1px #000 solid;
+    display: flex;
+}
+.body-content-wrap-list-user-logo img {
+    width: 72px;
+    height: 72px;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+.body-content-wrap-list-user-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.body-content-wrap-list-user-name {
+    font-size: 21px;
+}
+.body-content-wrap-list-user-name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.body-content-wrap-list-user-des {
+    font-size: 16px;
+}
+.body-content-wrap-list-content-img img {
+    height: 184px;
+    width: 290px;
+    margin: 20px 0;
+    border: 1px #999 solid;
+    border-radius: 36px;
+}

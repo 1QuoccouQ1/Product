@@ -1,0 +1,103 @@
+.body-main-title {
+    margin: 0 auto;
+    height: 200px;
+    width: 1060px;
+    padding: 150px 0;
+    font-size: 57px;
+   font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    line-height: 65px;
+}
+.body-main-wrap {
+    width: 100%;
+}
+.body-main-title img {
+    font-size: 20px;
+}
+.body-content-wrap {
+    width: 100%;
+    height: auto;
+}
+.body-content-wrap-block {
+    margin: 0 auto;
+    height: 1000px;
+    width: 1060px;
+    opacity: 0;
+    animation: reveal 1s ease forwards; /* Thời gian và kiểu chuyển động */
+    animation-delay: 0.5s; /* Độ trễ giữa các nội dung */
+}
+
+@keyframes reveal {
+    0% {
+      opacity: 0; /* Nội dung ẩn */
+      transform: translateY(20px); /* Di chuyển từ trên xuống */
+    }
+    100% {
+      opacity: 1; /* Nội dung hiển thị */
+      transform: translateY(0); /* Không di chuyển */
+    }
+  }
+.body-content-wrap-block-top {
+    width: 1060px;
+    height:186px;
+    position: relative;
+}
+.body-content-wrap-block-top-left {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px #000 solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 60px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.body-content-wrap-block-top-center {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    margin: 0 157px 0 170px;
+    line-height: 50px;
+
+}
+.body-content-wrap-block-top-right {
+    display: inline-flex;
+}
+
+.body-content-wrap-block-top-right-img img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 12px;
+}
+.body-content-wrap-block-top-right-title {
+    width: 200px;
+    line-height: 20px;
+    min-height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 80px;
+    padding: auto 10px;
+    position: absolute;
+    top: 12px;
+    right: 35px;
+}
+
+.body-content-wrap-block-bottom img {
+    width: 100%;
+    height: 640px;
+    margin-top: 50px;
+}
+
+.body-content-wrap-block-btn {
+    margin: 30px auto 70px;
+}
+.mobile-block {
+    height: 900px;
+}
